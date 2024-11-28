@@ -1,0 +1,23 @@
+{
+  "name": "acab",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datatables.net": "^2.1.8",
+    "electron": "^33.1.0",
+    "jquery": "^3.7.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "description": ""
+}
